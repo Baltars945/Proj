@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/ProductTittle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="-30dp"
+        android:text="Produit"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ProductName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Product Name"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ProductPicture"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</LinearLayout>
